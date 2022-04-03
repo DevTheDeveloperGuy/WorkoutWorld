@@ -1,0 +1,301 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+
+header{
+     width: 100%;
+     height: 100vh;
+     background: black;
+     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 80%, 0% 100%);
+}
+
+nav{
+     width: 100%;
+     height: 100px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     color: whitesmoke;
+}
+
+.logo{
+     font-size: 50px;
+     font-weight: bold;
+     letter-spacing: 5px;
+}
+
+#yellow{ 
+     color: #e2e608;
+     border: 8px #105aa5; 
+}
+
+.menu a{
+     text-decoration: none;
+     color: whitesmoke;
+     font-size: 20px;
+     font-weight: normal;
+     padding: 10px;
+     margin: 10px;
+}
+
+.menu a:first-child{
+     border-bottom: 3px solid #e2e608;
+}
+
+.container{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: whitesmoke;
+}
+
+.left{
+     flex-basis: 50%;
+}
+
+.left img{
+     width: 80%;
+}
+
+.right{
+     flex-basis: 50%;
+     max-width: 600px;
+     padding-left: 20px;
+     padding-bottom: 20px;
+}
+
+.right h1{
+     color: #e2e608;
+     font-size: 50px;
+}
+
+.right p{
+     font-size: 20px;
+     text-align: justify;
+     margin: 10px 0px;
+}
+
+.btn{
+     background: transparent;
+     padding: 10px 20px;
+     color: #e2e608;
+     border: 1px solid #e2e608;
+     border-radius: 8px;
+}
+
+/* --------------------------------------------------- A B O U T --- S E C T I O N ----------------------------------------------------------- */
+
+#about{
+     padding: 50px 0px;
+     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 80%, 0% 100%);
+}
+
+.about-row{
+     padding: 50px 0px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     
+}
+
+.about-left-col{
+     flex-basis: 50%;
+}
+
+.about-right-col{
+     flex-basis: 50%;
+     text-align: center;
+}
+
+.about-right-col img{
+     width: 80%;
+}
+
+.about-left-col{
+     max-width: 600px;
+     margin: auto;
+}
+
+.about-left-col h1{
+     font-size: 50px;
+}
+
+.about-left-col p{
+     font-size: 20px;
+     text-align: justify;
+     margin: 15px 0px;
+}
+
+.c-btn{
+     padding: 10px;
+     margin: 10px 0px;
+     color: black;
+     background: #e2e608;
+     border: 1px solid black;
+     border-radius: 8px;
+}
+
+/* --------------------------------------------------- S I G N U P --- S E C T I O N ----------------------------------------------------------- */
+
+#signup{
+     padding-top: 50px;
+     padding-bottom: 20px;
+     background: rgba(0, 0, 0, 0.1);
+     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 80%, 0% 100%);
+}
+
+.signup-row{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.signup-left-col{
+     flex-basis: 50%;
+     text-align: center;
+}
+
+.signup-left-col img{
+     width: 60%;
+
+}
+
+.signup-right-col{
+     flex-basis: 50%;
+}
+
+.signup-right-col h1{
+     font-size: 90px;
+}
+
+.signup-right-col h2{
+     font-size: 45px;
+     letter-spacing: 60px;
+     color: rgba(0, 0, 0, 0.3);
+     margin: 10px 0px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+.mid-col-head{
+	text-align: center;
+     border: 10px black;
+}
+.mid-col-head h1{
+	font-size: 50px;
+     
+}
+.mid-col-head p{
+	font-size: 25px;
+	font-weight: bold;
+     padding-bottom: 30px;
+}
+
+/* ---------------------------------------------------- S T O R E --- S E C T I O N ----------------------------------------------------------- */
+
+#store{
+     padding: 50px 0px;
+}
+
+.prod-row{
+	display: grid;
+	grid-template-columns: repeat(3,250px);
+	grid-auto-rows: minmax(180px,auto);
+	grid-gap: 3em;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.prod-card{
+	box-shadow: 2px 3px 5px #105aa5;
+	padding: 10px;
+	text-align: center;
+     border-radius: 5px;
+
+}
+
+/* --------------------------------------------------- C O N T A C T --- S E C T I O N -------------------------------------------------------- */
+
+#contact{
+     padding: 30px 0px;
+      background: rgba(0, 0, 0, 0.1);
+}
+
+.contact-row{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.contact-left-col{
+     flex-basis: 50%;
+     padding-top: 50px;
+}
+
+.contact-right-col{
+     flex-basis: 50%;
+     max-width: 450px;
+	margin: auto;
+}
+
+.contact-right-col i{
+	font-size: 20px;
+	padding: 10px;
+	background:#105aa5;
+     border-radius: 5px;
+	color: white; 
+}
+.contact-right-col p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.form{
+     width: 70%;
+     margin: auto;
+     text-align: center;
+}
+
+.form input[type="text"]{
+     width: 70%;
+     padding: 10px;
+     margin-bottom: 10px;
+}
+
+textarea{
+     width: 70%;
+     padding: 10px;
+     margin-bottom: 10px;
+}
+
+.c_btn{
+     background-color: black;
+     width: 25%;
+     color: rgb(255, 255, 255);
+     border: 1px solid black;
+     border-radius: 15px;
+     padding: 10px;
+}
+
+/* --------------------------------------------------- F O O T E R --- S E C T I O N ---------------------------------------------------------- */
+
+#footer{
+	background: black;
+	color:white;
+	padding: 10px;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* #footer h1{
+	font-size: 50px; 
+}*/
+
+#footer p{
+	font-size: 20px;
+}
+
+#footer p{
+	font-size: 20px;
+     color: rgba(201, 199, 199, 0.63);
+}
